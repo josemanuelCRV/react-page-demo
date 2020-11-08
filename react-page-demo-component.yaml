@@ -10,7 +10,6 @@ metadata:
     lighthouse.com/website-url: https://josemanuelcrv.github.io/react-page-demo/
   tags:
     - react
-    - website
 spec:
   type: service
   lifecycle: production
