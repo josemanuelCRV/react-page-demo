@@ -12,7 +12,7 @@ metadata:
     - react
     - website
 spec:
-  type: website
+  type: service
   lifecycle: production
   owner: josemanuelCRV
   implementsApis:
