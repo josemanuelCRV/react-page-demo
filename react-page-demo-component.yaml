@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: react-page-demo-component
+  description: Reading my comp from github
+  annotations:
+    jenkins.io/github-folder: folder-name/job-name
+    github.com/project-slug: josemanuelCRV/react-page-demo
+    backstage.io/techdocs-ref: github:https://github.com/josemanuelCRV/react-page-demo.git
+    lighthouse.com/website-url: https://josemanuelcrv.github.io/react-page-demo/
+  tags:
+    - react
+    - website
+spec:
+  type: service
+  lifecycle: production
+  owner: josemanuelCRV
+  implementsApis:
+    - example-api
